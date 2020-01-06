@@ -1,0 +1,31 @@
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  align-self: flex-start;
+}
+.container ul  {
+  margin: 5px;
+  
+}
+.container ul li {
+  margin: 5px;
+  list-style-type: none;
+}
+
+ul li {
+  list-style-type: square;
+  
+}
+.blue, .a-blue, .b-blue, .c-blue, .d-blue {
+  color: blue;
+}
+.green, .a-green, .b-green, .c-green {
+  color: rgb(30, 194, 30);
+}
+.red, .a-red, .b-red {
+  color: red
+}
